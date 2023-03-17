@@ -19,11 +19,11 @@ const Explore = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        viewport={{ once: true, amount: 0.25 }}
+        className={`${styles.innerWidthSmall} mx-auto flex flex-col`}
       >
         <TypingText
-          title="| The World"
+          title="| The Worlds"
           textStyles="text-center"
         />
         <TitleText

@@ -12,11 +12,11 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidthAbout} mx-auto ${styles.flexCenter} flex-col`}
+      viewport={{ once: true, amount: 0.25 }}
+      className={`${styles.innerWidthSmall} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| About Metaversus"
+        title="| About Rare Metaverses"
         styles="text-center"
       />
       <motion.p
