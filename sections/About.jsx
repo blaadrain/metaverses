@@ -16,7 +16,7 @@ const About = () => (
       className={`${styles.innerWidthS} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| About Rare Metaverses"
+        title="| About Metaverses"
         styles="text-center"
       />
       <motion.p
@@ -36,7 +36,7 @@ const About = () => (
         devices you can easily explore the metaverse world you want, turn your
         dreams into reality. Let's{' '}
         <span className="font-extrabold text-white">explore </span>
-        the madness of the metaverse by scrolling down
+        the madness of the metaverse by scrolling down.
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}

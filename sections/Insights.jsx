@@ -16,11 +16,11 @@ const Insights = () => (
       className={`${styles.innerWidthS} mx-auto flex flex-col`}
     >
       <TypingText
-        title="| Insight"
+        title="| Insights"
         textStyles="text-center"
       />
       <TitleText
-        title="Insight about metaverse"
+        title="Insights about metaverse"
         textStyles="text-center"
       />
       <div className="mt-[50px] flex flex-col gap-[50px]">
