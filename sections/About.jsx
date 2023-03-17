@@ -13,7 +13,7 @@ const About = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
-      className={`${styles.innerWidthSmall} mx-auto ${styles.flexCenter} flex-col`}
+      className={`${styles.innerWidthS} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
         title="| About Rare Metaverses"

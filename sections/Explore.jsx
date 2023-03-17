@@ -20,7 +20,7 @@ const Explore = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${styles.innerWidthSmall} mx-auto flex flex-col`}
+        className={`${styles.innerWidthS} mx-auto flex flex-col`}
       >
         <TypingText
           title="| The Worlds"
